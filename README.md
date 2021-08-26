@@ -1,6 +1,13 @@
 # Scripts related to the project
 In the project directory, you can run:
 
+## Observations
+- I didnt put too much energy in using the real api to not delay the delivery of the test, but i simulated a service call with a promise, to accomplish that feature it would be only matter of using axios for example and replacing the promise with a random api get endpoint.
+
+- If i have some time i will try to create another branch with the functional approach.
+
+- I used create-react-app to save some time but i normally use my own webpack configuration and customization(prettier, eslint, husky), but i believe this is out of the scope of this test.
+
 ### `npm start`
 
 Runs the app in the development mode.\
